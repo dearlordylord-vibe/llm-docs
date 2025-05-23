@@ -63,7 +63,7 @@ Every TypeScript project must include **incremental compilation** and **composit
 **Package-level tsconfig.json requirements:**
 - Must extend root config or include same options
 - Must include `"composite": true` for all library packages
-- Must include `"incremental": true` 
+- Must include `"incremental": true`
 - Use appropriate `"lib"` array based on runtime (Node.js vs browser)
 
 ### ESLint Configuration (Mandatory)
